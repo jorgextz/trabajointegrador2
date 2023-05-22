@@ -1,0 +1,209 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+
+.logo h2 {
+    margin-left: 10px;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+    position: fixed;
+    width: 100%;
+    
+    
+    
+}
+
+.logo_imagen {
+    width: 50px;
+
+}
+
+nav {
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    
+    
+}
+
+nav a:hover{
+    color: white;
+}
+
+.alquila {
+    display: flex;
+    background-image: url(../img/imagenfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.alquila_texto {
+    font-size: 60px;
+    
+}
+ ol li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ ol {
+   justify-content: center;
+ }
+
+ 
+
+ .espacios {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/imagenfondo_2.png);
+    background-size: cover;
+    padding-bottom: 30px;
+    
+ }
+
+ .espacios_div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+ }
+
+.espacios_imagen {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+ }
+
+ .espacios_texto {
+    display: flex;
+    justify-content: center;
+ }
+
+ .espacios_texto h2 {
+    font-size: 30px ;
+    text-decoration:underline;
+ }
+
+ .espacios2 {
+    display: flex;
+    background-color:rgba(240, 248, 255, 0.507);
+    flex-direction: column;  
+ }
+
+ .espacios2 h2{
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+ }
+
+.productos {
+    margin-top: 30px;
+
+}
+
+ .poductos_texto {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+ }
+
+ .poductos_texto p {
+    font-size: 20px;
+ }
+ .poductos_texto h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+ }
+
+ .productos_imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+
+ }
+
+ .parte1 {
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .parte2 {
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+.contactos h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+    background-color: beige;
+    margin-bottom: 0;
+   
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+    padding-left: 30px;
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
