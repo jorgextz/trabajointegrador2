@@ -4,143 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link type="text/css" rel="stylesheet" href="./css/index.css">
-    <title>Parthenon Futbol 5</title>
+
+    <title>P a r t h e n o n</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+
+    
 </head>
 <body>
 
-<header>
- <!-- ---------- HEADER ------------ -->
+    <!-- ---------- HEADER ------------ -->
+    <header>
 
-    <!-- ---------- LOGO ------------ -->
-    
-    <a href="" class="logo">
-    <img class="logo_imagen" src="./img/logo.png" alt="logo.png">
-    <h2 class="logo_nombre">Parthenon <br> Futbol 5 </h2>
-    </a>
-    
-    <!-- ---------- MENU ------------ -->
-    <nav>
-    <a  href="#alquila_tag">Parthenon</a>
-    <a  href="#productos_tag">Productos</a>
-    <a target="_blank" href="./registro.html">Registro</a>
-    <a target="_blank" href="./Mi_cuenta.html">Mi Cuenta</a>
-    <a  href="#contactos_tag">Contacto</a>
-    </nav>
-</header>
+        <!-- ---------- LOGO ------------ -->
+        
+        <a href="" class="logo">
 
+            <img class="logo_imagen" src="./img/logo1.png" alt="logo.png">
 
-<!-- ---------- PRIMERA SECTION ------------ -->
+            <h2 class="logo_titulo">Parthenon <br> Futbol 5 </h2>
+        
+        </a>
+        
+        <!-- ---------- MENU ------------ -->
+        <nav class="menu">
+            <a  href="#alquila_tag">Parthenon</a>
+            <a  href="#nosotros_tag">Nosotros</a>
+            <a target="_blank" href="./registro.html">Registro</a>
+            <a target="_blank" href="./Mi_cuenta.html">Mi Cuenta</a>
+            <a  href="#contactos_tag">Contacto</a>
+        </nav>
 
-<div class="alquila" id="alquila_tag">
-    <div class="alquila_texto">
-        <h1>
-        <p>Alquila tu</p>
-        <p>Cancha en 3</p>
-        <p>Simples pasos..</p>
-        </h1>
-    </div> 
-    
-    <div class="alquila_lista">
-    <ol>
-        <li><h3>Elegi que dia jugar</h3></li>
-        <img src="./img/Elegi.png" alt="elegi.png">
-        <li><h3>Seleciona el mejor horario</h3></li>
-        <img src="./img/fechayhora.png" alt="fechayhora.png">
-        <li><h3> Alquila y Paga</h3></li>
-        <img src="./img/paga.png" alt="paga.png">
-    </ol>
-    </div>
+    </header>
 
-</div>
-<!-- ---------- SEGUNDA SECTION ------------ -->
+    <!-- ---------- PRIMERA SECTION ------------ -->
+    <section class="home" id="alquila_tag">
+        
+            <div class="home_texto">
+                <h1>Parthenon</h1>
+                <p>Representa el espiritu deportivo que todos llevamos dentro, ven y alquila con nosotros!</p>
+            </div> 
 
- <div class="espacios">
-    <div class="espacios_texto">
-        <h2>Conoce Nuestros Espacios</h2>
-    </div>
-   
-    <div class="espacios_div">
-    <img class="espacios_imagen" src="./img/espacio_2.jpg" alt="imagen3.jpeg">
-    <img class="espacios_imagen" src="./img/2.jpg" alt="imagen2.jpeg">
-    <img class="espacios_imagen" src="./img/espacio_1.jpg" alt="imagen1.jpeg">
-    <img class="espacios_imagen" src="./img/espacio_3.jpg" alt="imagen3.jpeg">
-    <img class="espacios_imagen" src="./img/espacio_4.jpg" alt="imagen4.jpeg">
-    <img class="espacios_imagen" src="./img/espacio_5.jpg" alt="imagen5.jpeg">
-    </div>
-</div>
+            <a href="#paquetes_id" class="home_button">
+                <h2>Reserva Ya!</h2>
+            </a>
 
-<!-- ---------- TERCERA SECTION ------------ -->
- <div class="espacios2">   
-    <h2>Tenemos diferentes espacios para que puedas relizar:</h2>
-    
-    <ul>
-        <li><h3><strong>Cumpleaños</strong></h3></li>
-        <li><h3><strong>Juntadas</strong></h3></li>
-        <li><h3><strong>Reuniones</strong> Deportivas</h3></li>
-        <li><h3>y <strong>Mucho</strong> mas....</h3></li>
-    </ul>
-</div>
-<!-- ---------- CUARTA SECTION ------------ -->
-<div class="productos" id="productos_tag">
-    <div class="poductos_texto">
-        <h2>Nuestros Productos</h2>
-        <p>Tenemos una gran variedad de materiales para el entrenamiento <strong>personal</strong>, nuestra gama de productos abarca desde la linea hogar hasta la de <strong>gymnasios</strong> y <strong>centros deportivos</strong></p> 
-    </div>
+        
 
-    <div class="productos_imagenes">
-        <div class="parte1"> 
-        <h3>Colchonetas</h3>
-        <img src="../Tarea HTML/img/producto1.jpg" alt="">
-        <h3>Mancuernas</h3>
-        <img src="../Tarea HTML/img/producto2.jpg" alt="">
-        <h3>Pesas Rusas</h3>
-        <img src="../Tarea HTML/img/producto3.jpg" alt="">
+    </section>
+    <!-- ---------- SEGUNDA SECTION ------------ -->
+    <section id="paquetes_id" class="paquetes">
+        <div class="arriba">
+            <div class="box_up box_1">
+                <h2>Paquete1</h2>
+                <p>Recibe descuentos de hasta un <strong>20%</strong> por alquilar mas de 1 hora</p>
+                <a href="#contactos_tag">ALQUILAR</a>
+            </div>
+            <div class="box_up box_2">
+                <h2>Paquete1</h2>
+                <p>Recibe descuentos de hasta un <strong>20%</strong> por alquilar mas de 1 hora</p>
+                <a href="#contactos_tag">ALQUILAR</a>
+
+            </div>
+            <div class="box_up box_3">
+                <h2>Paquete1</h2>
+                <p>Recibe descuentos de hasta un <strong>20%</strong> por alquilar mas de 1 hora</p>
+                <a href="#contactos_tag">ALQUILAR</a>
+
+            </div>
         </div>
-        
-        <div class="parte2"> 
-        <h3>Pesas Rusas Ajustables</h3>
-        <img src="../Tarea HTML/img/producto4.jpg" alt="">
-        <h3>Expansores de látex</h3>
-        <img src="../Tarea HTML/img/producto5.jpg" alt="">
-        <h3>Bandas elásticas</h3>
-        <img src="../Tarea HTML/img/producto6.jpg" alt="">
+
+        <div class="abajo">
+
+            <div class="abajo_titulo">
+                <h2><strong>Alquila</strong> tu cancha <strong>en  3</strong> simples <strong>pasos!</strong></h2>
+            </div>
+
+            <div class="abajo_box">
+
+                <div class="box_down box_4">
+                    <a href="">
+                        <img src="./img/001-llamada.png" alt=""></a>
+                    <p><strong>1.</strong> <strong><em>llamanos</em></strong> o escribenos por Whatsapp.</p>
+                </div>
+                <img src="./img/flecha-correcta.png" alt="">
+                
+                <div class="box_down box_5">
+                    <a href=""> 
+                        <img src="./img/003-calendario.png" alt=""></a>
+                    <p><strong>2.</strong><strong><em>Selecciona</em></strong> el dia y la hora que prefieras.</p>
+                </div>
+                <img src="./img/flecha-correcta.png" alt="">
+                
+                <div class="box_down box_6">
+                    <a href="">
+                        <img src="./img/001-pago-movil.png" alt=""></a>
+                    <p><strong>1.</strong> Seña para confirmar tu cancha y a jugar!</p>
+                </div>
+            </div>
+            
         </div>
-        
 
-       
-    </div>
+    </section>
+    <!-- ---------- TERCERA SECTION ------------ -->
+    <hr id="tecera_section_id">
+    <section class="espacios" id="nosotros_tag">
+        <article class="izquierda">
+            
+            <div class="izquierda_title">
+                <h2>En <strong>Parthenon</strong> tenemos todos los espacios para que festejes: </h2>
+            </div>
+            
+            <div class="izquierda_eventos"> 
+                <img src="./img/002-pastel-de-cumpleaos.png" alt="">
+                <div class="eventos_text">
+                    <h3>Cumpleaños</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, alias. Numquam mollitia in debitis harum quae? Ullam eos consequuntur provident.</p>
+                </div>
+            </div>
+            <div class="izquierda_eventos">
+                <img src="./img/001-campeonato-de-futbol.png" alt="">
+                <div class="eventos_text">
+                    <h3>Campeonatos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laboriosam modi accusamus voluptates eligendi iure aliquid ipsum facere fugit saepe!</p>
+                </div>
+            </div>
+            <div class="izquierda_eventos">
+                <img src="./img/003-amistad.png" alt="">
+                <div class="eventos_text">
+                    <h3>Juntadas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam inventore omnis commodi voluptates sequi illum quas ipsa alias delectus.</p>
+                </div>
+            </div>
+        </article>
 
-</div>
-<!-- ---------- SECCION DE CONTACTOS ------------ -->
-<div class="contactos" id="contactos_tag"> 
-    <h1>Contactanos:</h1> 
-        
-    
-    <form>
-        <label>Nombre</label>
-        <input placeholder="Nombre" type="text"/>
-        <label>Apellido</label>
-        <input placeholder="Apellido" type="text"/>
-        <label>DNI</label>
-        <input placeholder="55.555.555" type="number"/>
-        <label>Email</label>
-        <input placeholder="aaa@bbbb.com" type="email"/>
-        <label>Telefono</label>
-        <input placeholder="(00) 2222-5555" type="number"/>
-        <label>Mensaje</label>
-        <textarea placeholder="Escribinos..."></textarea> <br>
-        <input type="submit">
-        
-        
-    </form>
-</div>
-    
-    
-    
+        <hr>
 
+        <div class="derecha">
+            <div class="gallery_row">
+                <div class="gallery_column">
+                    <img src="./img/img1.jpg" alt="" class="gallery_img">
+                    <img src="./img/img2.jpg" alt="" class="gallery_img">
+                    <img src="./img/img3.jpg" alt="" class="gallery_img">
+                </div>
+                <div class="gallery_column">
+                    <img src="./img/img4.jpg" alt="" class="gallery_img">
+                    <img src="./img/img5.jpg" alt="" class="gallery_img">
+                    <img src="./img/img6.jpg" alt="" class="gallery_img">
+                </div>
+                <div class="gallery_column">
+                    <img src="./img/img7.jpg" alt="" class="gallery_img">
+                    <img src="./img/img8.jpg" alt="" class="gallery_img">
+                    <img src="./img/img9.jpg" alt="" class="gallery_img">
+                </div>
+            </div>    
+        </div>
+                
+            
+            
+        </div>
 
+    </section>
+
+    <!-- -------- FOOTER --------- -->
+    <footer id="contactos_tag">
+        <div class="footer_formulario">
+            <form class="form1" action="">
+                <label for="">Nombre</label>
+                <input type="text">
+                <label for="">Apellido</label>
+                <input type="text">
+                <label for="">Telefono</label>
+                <input type="tel">
+                <label for="email">E-mail</label>
+                <input type="email"><br>
+                <button>ENVIAR</button>
+            </form>
+            <form class="form2" action="">
+                <label for="text">Envianos tu mensaje</label>
+                <textarea resize="none" name="" id="" cols="30" rows="10"></textarea >
+            </form>
+        </div>
+
+        <div class="footer_centro">
+                <nav class="menu">
+                    <a  href="#alquila_tag">Parthenon</a>
+                    <a  href="#nosotros_tag">Nosotros</a>
+                    <a target="_blank" href="./registro.html">Registro</a>
+                    <a target="_blank" href="./Mi_cuenta.html">Mi Cuenta</a>
+                    <a  href="#contactos_tag">Contacto</a>
+                </nav>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum minus animi recusandae molestiae labore maiores, cum aspernatur consequatur eum!</p>
+
+                <p class="derechos_de_autor">© 2022 DeveloperCSS| Todos los derechos reservados</p>
+        </div>
+        <div class="footer_redes">
+            <a href="" class="logo">
+
+                <img class="logo_imagen" src="./img/logo1.png" alt="logo.png">
     
-    
+                <h2 class="logo_titulo">Parthenon <br> Futbol 5 </h2>
+            
+            </a>
+            <h4>Siguenos en las redes sociales</h4>
+            <div class="redes">
+                <a href="">
+                    <img src="./img/003-whatsapp.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./img/002-instagram.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./img/001-facebook.png" alt="">
+                </a>
+            </div>
+            
+        </div>
+    </footer>
 </body>
 </html>
